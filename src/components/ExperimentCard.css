@@ -1,0 +1,45 @@
+.experiment-card {
+  width: 90%;
+  max-width: 700px;
+}
+
+.experiment-card {
+  flex: 1 1 250px; /* base 250px, grow/shrink */
+  max-width: 300px; /* optional: prevent cards from being too wide */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+
+.experiment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.experiment-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.experiment-card p {
+  margin: 5px 0;
+}
+
+.experiment-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.experiment-card a:hover {
+  background-color: #0056b3;
+}
