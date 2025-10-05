@@ -18,7 +18,7 @@ function App() {
   const [categoryFilter, setCategoryFilter] = useState("All");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/experiments")
+    fetch("https://biospace-backend.onrender.com/api/experiments")
       .then((res) => res.json())
       .then((data) => {
         setExperiments(data);
